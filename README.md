@@ -33,6 +33,19 @@ npm start
 
 Register initial user using the the formatted request in rest.http
 
+```http
+### Register a user
+
+POST http://localhost:3000/users/register HTTP/1.1
+content-type: application/json
+
+{
+    "name": "admin",
+    "email": "admin@admin.com",
+    "password": "password"
+}
+```
+
 Navigate to [http://localhost:3000](http://localhost:3000)
 
 
