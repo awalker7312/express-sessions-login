@@ -33,6 +33,6 @@ npm start
 
 Register initial user using the the formatted request in rest.http
 
-Navigate to [MongoDB Cloud](http://localhost:3000)
+Navigate to [http://localhost:3000](http://localhost:3000)
 
 
