@@ -1,0 +1,24 @@
+{
+  "name": "sessionexample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "set DEBUG=sessionexample:* & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.4.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.12.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7"
+  }
+}

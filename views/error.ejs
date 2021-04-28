@@ -1,0 +1,18 @@
+<%- include('partials/header'); -%>
+  <div class="container">
+    <div class="row h-100">
+      <div class="col-12 col-sm-12 my-auto text-center">
+        <% if(error.status==404){ %>
+          <img src="/img/404_VV.gif" class="img-fluid" alt="" />
+          <% } else{ %>
+            <h1>
+              <%= error.status %> - <%= message %>
+            </h1>
+            <div class="mx-auto" style="width: fit-content;">
+            <pre><%= error.stack %></pre>
+            </div>   
+            <% } %>
+      </div>
+    </div>
+  </div>
+  <%- include('partials/footer'); -%>
